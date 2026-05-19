@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Neon Slots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="machine-container">
+        <!-- Display Readouts -->
+        <div class="display-panel">
+            <div>Balance: <span id="balance">$1000</span></div>
+            <div>Bet: <span id="bet">$10</span></div>
+            <div>Win: <span id="win">$0</span></div>
+        </div>
+        
+        <!-- 3x3 Grid Matrix -->
+        <div class="slot-grid">
+            <div class="cell" id="c0_0">7️⃣</div>
+            <div class="cell" id="c0_1">💎</div>
+            <div class="cell" id="c0_2">🔔</div>
+            
+            <div class="cell" id="c1_0">🍊</div>
+            <div class="cell" id="c1_1">7️⃣</div>
+            <div class="cell" id="c1_2">🍋</div>
+            
+            <div class="cell" id="c2_0">🍒</div>
+            <div class="cell" id="c2_1">🍊</div>
+            <div class="cell" id="c2_2">7️⃣</div>
+        </div>
 
+        <!-- Action Panel Controls -->
+        <div class="controls">
+            <button id="btn-less">Bet Down</button>
+            <button id="btn-more">Bet Up</button>
+            <button id="btn-spin">SPIN</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
